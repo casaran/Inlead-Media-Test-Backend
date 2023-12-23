@@ -1,0 +1,7 @@
+inlead_test_backend.latest_updated_content:
+  path: '/api/v1/latest_updated_content'
+  defaults:
+    _controller: '\Drupal\inlead_test_backend\Controller\LatestUpdatedContent::build'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content'
